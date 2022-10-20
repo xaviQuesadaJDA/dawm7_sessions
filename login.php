@@ -9,12 +9,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
     <style>
+        h1{
+            text-align: center;
+        }
         .missatge_error{
             color = "red";
         }
     </style>
 </head>
 <body>
+    <h1>Pàgina de login</h1>
 <?php
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $nom_usuari = $_POST['usuari'];
