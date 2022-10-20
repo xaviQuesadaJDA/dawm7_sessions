@@ -35,10 +35,13 @@
     }
 ?>
     <form action="login.php" method="POST">
+        <p>
         <label for="usuari">Usuari: </label>
         <input type="text" name="usuari" />
+        </p><p>
         <label for="password">Paraula de pas: </label>
         <input type="password" name="password" />
+        </p>
         <input type="submit" value="envia"  />
     </form>
 </body>
