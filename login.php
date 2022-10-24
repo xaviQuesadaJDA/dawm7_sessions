@@ -24,7 +24,7 @@
         $nom_usuari = $_POST['usuari'];
         $paraula_pas = $_POST['password'];
 
-        if ($paraula_pas == $nom_usuari){
+        if ($paraula_pas == $nom_usuari && $nom_usuari!=""){
             $_SESSION['usuari'] = $nom_usuari;
             header('location: ./contingut1.php');
             quit();
